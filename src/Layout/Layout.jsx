@@ -3,7 +3,7 @@ import NavBer from "../Shared/NavBer/NavBer";
 
 const Layout = () => {
     return (
-        <div>
+        <div className="font-caveat">
             <NavBer></NavBer>
             <Outlet></Outlet>
         </div>
